@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.text {
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+
+}
+
+.text2 {
+    width: 300px;
+    position: absolute;
+    text-align: right;
+    top: 30px;
+    left: 800px;
+}
+
+.graphic {
+    display: flex;
+    gap: 180px;
+}
