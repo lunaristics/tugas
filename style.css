@@ -1,0 +1,79 @@
+body {
+    max-width: 1000px; border: 1px solid black; margin: auto;
+}
+
+header {
+    background-color: #ffd1dc;
+}
+
+nav {
+    display: flex; padding: 10px; border-bottom: 1px solid black;
+}
+
+.logo {
+    display: flex; list-style-type: none; gap: 10px; margin-right: 50px;
+}
+
+.logo .li {
+    text-decoration: none;
+}
+
+.menu-ul {
+    display: flex; list-style-type: none; gap: 10px; margin-left: auto;
+}
+
+.icon-ul {
+    display: flex; list-style-type: none; gap: 10px; margin-left: auto;
+}
+
+.icon-ul .li .cart {
+    display: flex; gap: 30px;
+}
+
+.container {
+    display: flex; gap: 20px; margin-top: 100px; padding: 10px;
+}
+
+aside {
+    width: 40%; background-color: #ffd1dc; padding: 10px; display: grid; align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    padding: 10px 0;
+}
+
+td {
+    padding: 10px 0;
+}
+
+td .right {
+    padding: 10px 0;
+}
+
+.btn-checkout {
+    display: flex; justify-content: center; background-color: white; width: 100%; text-decoration: none; padding: 10px 0;
+}
+
+footer {
+    margin-top: 100px;vborder-top: 1px solid black;vpadding: 10px;vdisplay: grid; gap: 10px;
+}
+
+.baris {
+    gap: 5px; margin-left: auto
+}
+
+.input-subscribe {
+    display: flex;
+}
+
+.input {
+    display: flex; margin-left: auto; font-weight: bolder;
+}
+
+p {
+    display: flex; background-color: #ffd1dc; font-weight: bolder;
+}
